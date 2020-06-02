@@ -1,0 +1,8 @@
+
+
+
+1. {{ form }} will render them all
+2. {{ form.as_table }} will render them as table cells wrapped in <tr> tags
+3. {{ form.as_p }} will render them wrapped in <p> tags
+4. {{ form.as_ul }} will render them wrapped in <li> tags
+5. {{ form.name_of_field }} will render field manually as given
